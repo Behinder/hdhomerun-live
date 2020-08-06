@@ -1,89 +1,13 @@
 {
   "channels": [
     {
-      "GuideNumber": 1213,
-      "GuideName": "BLOOM",
+      "GuideNumber": 1000,
+      "GuideName": "13 Ulica HD",
       "HD": 1,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
-    },
-    {
-      "GuideNumber": 1212,
-      "GuideName": "CN",
-      "HD": 0,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
-    },
-    {
-      "GuideNumber": 1216,
-      "GuideName": "CNET",
-      "HD": 0,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
-    },
-    {
-      "GuideNumber": 1301,
-      "GuideName": "CSPAN",
-      "HD": 1,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
-    },
-    {
-      "GuideNumber": 1208,
-      "GuideName": "FX",
-      "HD": 1,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
-    },
-    {
-      "GuideNumber": 1209,
-      "GuideName": "FXM",
-      "HD": 1,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
-    },
-    {
-      "GuideNumber": 1210,
-      "GuideName": "FXX",
-      "HD": 1,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
-    },
-    {
-      "GuideNumber": 1310,
-      "GuideName": "HGTV",
-      "HD": 1,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
-    },
-    {
-      "GuideNumber": 1215,
-      "GuideName": "ID",
-      "HD": 1,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
-    },
-    {
-      "GuideNumber": 1206,
-      "GuideName": "TBS",
-      "HD": 1,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
-    },
-    {
-      "GuideNumber": 1207,
-      "GuideName": "TNT",
-      "HD": 1,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
-    },
-    {
-      "GuideNumber": 1211,
-      "GuideName": "USA",
-      "HD": 1,
-      "AudioCodec": "AC3",
-      "VideoCodec": "MPEG2"
+      "AudioCodec": "MPGA",
+      "VideoCodec": "H264"
     }
+    
   ],
   "status": [
     {
@@ -94,8 +18,8 @@
   ],
   "stream": [
     {
-      "GuideNumber": 1216,
-      "Url": "http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/56283c8769ba54637dea0464/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=Chrome&sid=fed1bbc8-128e-4cc4-a645-eea924ab0528&deviceId=e246fb52-1b53-4afc-b097-974ec3674efc&deviceVersion=12.0.2&appVersion=2.5.2-df6a9fe9a4551c2243cd791b651e4e5dd5a118f4&deviceDNT=0",
+      "GuideNumber": 1000,
+      "Url": "https://cdn.sha-256.org/2022193683/3cGBTagoum/6662716",
       "Timestamp": 1558035186
     },
     {
@@ -113,5 +37,6 @@
       "Url": "https://turnerlive.akamaized.net/hls/live/572094/tbse/aes_slate/de/master.m3u8?hdnts=exp=1558036459~acl=/hls/live/630666/tbse/*!/hls/live/630666-b/tbse/*!/hls/live/572094/tbse/*!/hls/live/572094-b/tbse/*~id=b100684f16e4515ea0a8901344e10d34~hmac=c43e61ee313af2d24bf00bd47b6c8734540cf6669078cc0a4cd4a6a42ecfd07c",
       "Timestamp": 1558036255
     }
+   
   ]
 }

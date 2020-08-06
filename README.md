@@ -1,14 +1,11 @@
 # hdhomerun-live
 
-HDHomeRun Emulator that scrapes playlist URLs from TV station live streaming web pages utilizing TV everywhere.
+HDHomeRun Emulator forked version designed to work with custom IPTV streams.
+Made for working with ChannelsDVR (getchannels.com)
 
-Made for use with Channels DVR ( getchannels.com ).
-
-Should work with any type of playlist that is supported by FFMPEG, so you could potentially add any IPTV stream you wanted or other type of service.  Channels can be added in the /channels directory.  
 
 You'll want to point ChromePath in config.json to a Chrome path instead of using the built in Chromium browser installed w/ Puppeteer because you need mpeg4 support.
 
-This is a work in progress....
 
 ## Installation:
 
@@ -20,11 +17,10 @@ This is a work in progress....
     node multicast.js
 
 ## License:
-MIT.
+I don't care about license, use as you wish.
 
 ## Attibutions:
 
 Some ( Currently most ) libhdhomerun protocol implementation from:
-
 https://github.com/mharsch/node-hdhomerun
  

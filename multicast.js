@@ -13,7 +13,7 @@ HDHomeRunServer.MultiCast();
 HDHomeRunServer.ControlServer();
 
 const http = express();
-const http_port = 80;
+const http_port = 4000;
 const media_port = 5004;
 const httpRequest = new HTTPRequestHandler({ settings: settings });
 
