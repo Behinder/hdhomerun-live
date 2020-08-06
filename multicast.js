@@ -23,14 +23,18 @@ for(let i=0; i<deviceConfig.TunerCount; i++) {
 }
 http.use(express.static('static'));
 http.use(morgan('dev'));
-http.get('/lineup.json', httpRequest.Lineup);
-http.get('/lineup_status.json', httpRequest.LineupStatus);
-http.post('/lineup_status.json', httpRequest.LineupStatus);
+http.get('/lineup.json', httpRequest.Lineup); // OK
+http.get('/lineup_status.json', httpRequest.LineupStatus); // OK
+http.post('/lineup_status.json', httpRequest.LineupStatus); // OK
 http.post('/lineup.post', httpRequest.Scan);
-http.get('/discover.json', httpRequest.Discover);
+http.get('/discover.json', httpRequest.Discover); // OK???
+
+// w funkcji Play nastepuje jakoś przyporządkowanie :channelNum do odpowiedniego streamu
 http.get('/stream/:channelNum', httpRequest.Play);
 http.get('/auto/:channelNum', httpRequest.Play);
 http.get(tuners, httpRequest.Play);
+
+
 
 http.listen(http_port, () => {
   console.log("HTTP server started listening on port %d", http_port);
