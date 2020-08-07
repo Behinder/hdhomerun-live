@@ -3,6 +3,9 @@
 HDHomeRun Emulator forked version designed to work with custom IPTV streams.
 Made for working with ChannelsDVR (getchannels.com)
 
+Project abandoned because I cannot make it working.
+
+
 
 You'll want to point ChromePath in config.json to a Chrome path instead of using the built in Chromium browser installed w/ Puppeteer because you need mpeg4 support.
 
